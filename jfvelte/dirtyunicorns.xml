@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<project name="AOSP-RRO/platform_device_samsung_jfvelte" path="device/samsung/jfvelte" remote="github" revision="du" />
+<project name="AOSP-RRO/platform_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="marshmallow" />
+<project name="AOSP-RRO/platform_vendor_samsung" path="vendor/samsung" remote="github" revision="marshmallow" />
+<project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-13.0" />
+<project name="AOSP-RRO/platform_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="marshmallow" />
+<project name="CyanogenMod/android_system_qcom" path="system/qcom" remote="github" revision="cm-13.0" />
+<project name="CyanogenMod/android_external_connectivity" path="external/connectivity" remote="github" revision="cm-13.0" />
+<remote fetch="https://github.com/AOSPB" name="aospb" revision="mm6.0" />
+<project name="external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="aospb" />
+<project name="external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="aospb" />
+<project name="external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="aospb" />
+<project name="DirtyUnicorns/android_hardware_ril" path="hardware/ril-caf" remote="github" revision="m-caf" />
+</manifest>
